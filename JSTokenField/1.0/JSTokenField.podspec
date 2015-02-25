@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.authors = {'' => ''}
   s.license = {'Simplified BSD' => 'README.mdown'}
   s.platform = :ios,'5.0'
+  s.requires_arc = false
 end
